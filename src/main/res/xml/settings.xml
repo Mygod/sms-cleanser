@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="cleanse"
+                android:title="Cleanse"
+                android:summary="Remember to backup because I'm not responsible for your data loss. :/"/>
+    <MultiSelectListPreference android:key="delete.contactGroup"
+                               android:title="Contact group to delete"
+                               android:defaultValue="@array/default_delete_contact_group"/>
+</PreferenceScreen>

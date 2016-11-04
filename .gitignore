@@ -1,0 +1,4 @@
+.idea
+target
+proguard-sbt.txt
+local.properties
